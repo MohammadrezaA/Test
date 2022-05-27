@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-SocialMedia-D6B0E83F-E996-4B26-B383-29AE8812A27E</UserSecretsId>
   </PropertyGroup>
 
