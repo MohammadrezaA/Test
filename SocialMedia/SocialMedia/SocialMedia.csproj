@@ -2,21 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <UserSecretsId>aspnet-SocialMedia-D6B0E83F-E996-4B26-B383-29AE8812A27E</UserSecretsId>
+    <UserSecretsId>aspnet-SocialMedia-7685C158-B730-4C5F-AD0B-E481A2FEAC9C</UserSecretsId>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.34" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="2.8.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.14" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.2" />
-    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.1" />
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

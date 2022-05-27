@@ -14,32 +14,17 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #line 1 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
-
-#line default
-#line hidden
-#line 2 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
 using SocialMedia;
 
 #line default
 #line hidden
-#line 3 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
+#line 2 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
 using SocialMedia.Models;
 
 #line default
 #line hidden
-#line 4 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
-using SocialMedia.Models.AccountViewModels;
-
-#line default
-#line hidden
-#line 5 "E:\Storage\Work\Canada\Test\SocialMedia\SocialMedia\Views\_ViewImports.cshtml"
-using SocialMedia.Models.ManageViewModels;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5989146c20e297d05361cc87bf290b8b98e9284", @"/Views/Home/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de6055e18e649fe48af7b56eb8428f24409c2cab", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fb3c1c4110c97850527e62d53d9f9c1592b4add2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

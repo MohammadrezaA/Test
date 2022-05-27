@@ -43,29 +43,22 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.All": {
-              "target": "Package",
-              "version": "[2.1.34, )"
-            },
-            "Microsoft.CodeAnalysis.Common": {
-              "target": "Package",
-              "version": "[2.8.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.14, )"
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.10, )"
             }
           },
           "imports": [
