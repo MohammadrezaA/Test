@@ -5,19 +5,19 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using SocialNetwork.Areas.Identity.Data;
+using SocialNetwork.Data;
 
 namespace SocialNetwork.Areas.Identity.Pages.Account.Manage
 {
     public class DeletePersonalDataModel : PageModel
     {
-        private readonly UserManager<SocialNetworkUser> _userManager;
-        private readonly SignInManager<SocialNetworkUser> _signInManager;
+        private readonly UserManager<AspNetUsers> _userManager;
+        private readonly SignInManager<AspNetUsers> _signInManager;
         private readonly ILogger<DeletePersonalDataModel> _logger;
 
         public DeletePersonalDataModel(
-            UserManager<SocialNetworkUser> userManager,
-            SignInManager<SocialNetworkUser> signInManager,
+            UserManager<AspNetUsers> userManager,
+            SignInManager<AspNetUsers> signInManager,
             ILogger<DeletePersonalDataModel> logger)
         {
             _userManager = userManager;

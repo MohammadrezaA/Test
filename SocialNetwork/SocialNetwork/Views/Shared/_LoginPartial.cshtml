@@ -1,8 +1,8 @@
 @using Microsoft.AspNetCore.Identity
-@using SocialNetwork.Areas.Identity.Data
+@using SocialNetwork.Data
 
-@inject SignInManager<SocialNetworkUser> SignInManager
-@inject UserManager<SocialNetworkUser> UserManager
+@inject SignInManager<AspNetUsers> SignInManager
+@inject UserManager<AspNetUsers> UserManager
 
 @if (SignInManager.IsSignedIn(User))
 {

@@ -9,20 +9,20 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using SocialNetwork.Areas.Identity.Data;
+using SocialNetwork.Data;
 
 namespace SocialNetwork.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ExternalLoginModel : PageModel
     {
-        private readonly SignInManager<SocialNetworkUser> _signInManager;
-        private readonly UserManager<SocialNetworkUser> _userManager;
+        private readonly SignInManager<AspNetUsers> _signInManager;
+        private readonly UserManager<AspNetUsers> _userManager;
         private readonly ILogger<ExternalLoginModel> _logger;
 
         public ExternalLoginModel(
-            SignInManager<SocialNetworkUser> signInManager,
-            UserManager<SocialNetworkUser> userManager,
+            SignInManager<AspNetUsers> signInManager,
+            UserManager<AspNetUsers> userManager,
             ILogger<ExternalLoginModel> logger)
         {
             _signInManager = signInManager;
@@ -115,7 +115,7 @@ namespace SocialNetwork.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                var user = new SocialNetworkUser { UserName = Input.Email, Email = Input.Email };
+                var user = new AspNetUsers { UserName = Input.Email, Email = Input.Email };
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {

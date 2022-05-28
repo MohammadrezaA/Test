@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using SocialNetwork.Areas.Identity.Data;
+using SocialNetwork.Data;
 
 namespace SocialNetwork.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ResetPasswordModel : PageModel
     {
-        private readonly UserManager<SocialNetworkUser> _userManager;
+        private readonly UserManager<AspNetUsers> _userManager;
 
-        public ResetPasswordModel(UserManager<SocialNetworkUser> userManager)
+        public ResetPasswordModel(UserManager<AspNetUsers> userManager)
         {
             _userManager = userManager;
         }
