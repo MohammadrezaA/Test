@@ -13,7 +13,7 @@ namespace SocialNetwork.Areas.Identity.Pages.Account
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 3 "E:\Storage\Work\Canada\Test\SocialNetwork\SocialNetwork\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "E:\Storage\Work\Canada\Test\SocialNetwork\SocialNetwork\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
@@ -23,13 +23,18 @@ using SocialNetwork.Areas.Identity;
 
 #line default
 #line hidden
+#line 3 "E:\Storage\Work\Canada\Test\SocialNetwork\SocialNetwork\Areas\Identity\Pages\_ViewImports.cshtml"
+using SocialNetwork.Areas.Identity.Data;
+
+#line default
+#line hidden
 #line 1 "E:\Storage\Work\Canada\Test\SocialNetwork\SocialNetwork\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using SocialNetwork.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"91b0486c60a65a39507c6876cc4c7d7ff8a809c9", @"/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6d210a30fc3a358e40e18d9de814ef14fd94e713", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"93fac76b497d7e678b71823d9e56128474a3a1d0", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f2453d4e05980e9a42d57827638d48fbd40d6611", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_ResetPasswordConfirmation : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -76,7 +81,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h2>\r\n<p>\r\n    Your password has been reset. Please ");
             EndContext();
             BeginContext(186, 46, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4f7db8d34ba4d84b7d7d4e0175efa38", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c363fccf2769461ea99938e8c8796cae", async() => {
                 BeginContext(208, 20, true);
                 WriteLiteral("click here to log in");
                 EndContext();
